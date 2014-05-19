@@ -1,0 +1,98 @@
+.clear {
+	clear: both;
+}
+
+.nav_hold {
+	overflow: hidden;
+}
+
+.nav_logo {
+	float: left;
+	width: auto;
+	max-width: 70%;
+	max-height: 80px;
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+.nav_menu {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	padding: 0px;
+	margin: 25px 0px;
+}
+
+.nav_menu li {
+	display: inline-block;
+	margin: 0px 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.nav_menu li a {
+	color: inherit;
+}
+
+.nav_menu li a:hover {
+	color: #F8C72E;
+}
+
+.nav_menu li a:visited {
+	color: inherit;
+}
+
+.nav_menu li a:visited:hover {
+	color: #F8C72E;
+}
+
+.current_menu_item {
+	color: #F8C72E;
+}
+
+.nav_button {
+	color: white;
+	display: none;
+	font-size: 30px;
+	font-family: 'Grands';
+}
+
+/*****************************************************************************/
+/*
+/* Responsive Design Logic
+/*
+/*****************************************************************************/
+
+@media screen and (max-width:720px) {
+	.nav_button {
+		padding: 14px 10px;
+		cursor: pointer;
+		display: block;
+		float: right;
+	}
+	
+	.nav_menu {
+		width: 100%;
+		height: 0px;
+		margin: 0px;
+		overflow: hidden;
+	}
+	
+	.nav_menu li {
+		padding: 10px;
+	}
+	
+	.nav_menu a {
+		padding: 10px;
+	}
+	
+	.nav_menu_open {
+		height: auto;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.nav_menu li {
+		display: block;
+	}
+}

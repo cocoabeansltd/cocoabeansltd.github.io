@@ -1,0 +1,11 @@
+baseurl: /
+permalink: /blog/:categories/:title
+url: http://cocoabeans.me
+name: Cocoa Beans
+description: "Cocoa Beans Ltd Official Website"
+timezone: Europe/London
+markdown: redcarpet
+encoding: utf-8
+pygments: true
+safe: true
+lsi: false
