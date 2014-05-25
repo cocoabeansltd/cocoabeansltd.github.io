@@ -9,7 +9,7 @@ categories: software-craftsmanship
 author: Gianluca Tranchedone
 author_url: https://plus.google.com/u/1/+GianlucaTranchedone
 
-featured_image: /images/legacy-code-banner.png
+featured_image: 2013-08-09-the-best-ways-to-integrate-external-repositories-into-your-projects/post_banner.png
 featured_image_length: 62470
 
 rss_description: "Working with legacy code may be a daunting task. Michael Feathers in his 'Working Effectively with Legacy Code' gives a precise definition for it: '[...]legacy code is simply code without tests'. His book is a must read for every software engineer or aspiring one."

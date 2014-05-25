@@ -1,21 +1,22 @@
 ---
 layout: blog
 title: Cocoa Beans - Blog
+style: /css/blog.css
 ---
 
 <!-- Blog -->
 {% for post in site.posts %}
 <div class="post_header">
 	{% if post.featured_image %}
-	<img class="post_featured_image" src="{{post.featured_image}}" alt="{{ page.title }}" />
+	<img class="post_featured_image" src="/images/posts/{{post.featured_image}}" alt="{{ page.title }}" />
 	{% endif %}
 	<a href="{{ post.url }}" class="excerpt_post_title"><h1>{{ post.title }}</h1></a>
-	<h4 class="meta">Written by <a href="{{ post.author_url }}?rel=author">{{ post.author }}</a> on {{ post.date | date_to_string }}</h4>
+	<h4 class="meta">{{ post.date | date_to_string }}</h4>
 </div>
 <div class="post">
 	{% if post.content contains "<!-- more -->" %}
     	{{ post.content | split:"<!-- more -->" | first % }}
-    	<p><a href="{{ post.url }}">Continue reading</a></p>
+    	<p><a class="read_more_button" href="{{ post.url }}">Continue reading</a></p>
 	{% else %}
     	{{ post.content }}
 	{% endif %}

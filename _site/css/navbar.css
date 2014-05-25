@@ -11,16 +11,16 @@
 	width: auto;
 	max-width: 70%;
 	max-height: 80px;
-	padding: 0px 10px;
 	display: inline-block;
+	padding: 0px 10px 0px 50px;
 }
 
 .nav_menu {
+	padding: 28px 50px 28px 10px;
 	display: inline-block;
 	list-style: none;
 	float: right;
-	padding: 0px;
-	margin: 25px 0px;
+	margin: 0px;
 }
 
 .nav_menu li {
@@ -55,6 +55,7 @@
 	display: none;
 	font-size: 30px;
 	font-family: 'Grands';
+	padding: 15px 50px 25px 10px;
 }
 
 /*****************************************************************************/
@@ -63,9 +64,8 @@
 /*
 /*****************************************************************************/
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:800px) {
 	.nav_button {
-		padding: 14px 10px;
 		cursor: pointer;
 		display: block;
 		float: right;
@@ -75,6 +75,7 @@
 		width: 100%;
 		height: 0px;
 		margin: 0px;
+		padding: 0px;
 		overflow: hidden;
 	}
 	
@@ -94,5 +95,13 @@
 @media screen and (max-width:400px) {
 	.nav_menu li {
 		display: block;
+	}
+	
+	.nav_button {
+		padding-right: 10px;
+	}
+	
+	.nav_logo {
+		padding-left: 10px;
 	}
 }

@@ -1,0 +1,195 @@
+/*****************************************************************************/
+/*
+/* Post's Content
+/*
+/*****************************************************************************/
+
+.page_container {
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+.meta {
+	text-align: center;
+	font-style: italic;
+	font-family: 'Lato Lite';
+	margin: 0px 10px 10px 10px;
+}
+
+.post {
+	color: #666666;
+	font-size: 20px;
+	padding: 0px 10px;
+	line-height: 1.3em;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.post_header {
+	padding: 0px 10px;
+	margin-bottom: 40px;
+}
+
+.post_footer {
+	padding: 0px 10px;
+}
+
+.post_featured_image {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 300px;
+	margin: 20px auto;
+	display: block;
+}
+
+.post_image_group {
+	text-align: center;
+}
+
+.post p img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.excerpt_post_title * {
+	color: inherit;
+}
+
+.excerpt_post_title {
+	color: #FF9C01;
+}
+
+.excerpt_post_title:hover {
+	color: #F8C72E;
+}
+
+.excerpt_post_title:visited {
+	color: #FF9C01;
+}
+
+.excerpt_post_title:visited:hover {
+	color: #F8C72E;
+}
+
+.read_more_button {
+	color: #999999;
+	font-size: 20px;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	border: 2px solid;
+	border-radius: 30px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.read_more_button:hover {
+	color: #E96944;
+}
+
+.read_more_button:visited {
+	color: #999999;
+}
+
+.read_more_button:visited:hover {
+	color: #E96944;
+}
+
+/*****************************************************************************/
+/*
+/* Blockquote
+/*
+/*****************************************************************************/
+
+blockquote {
+	margin: 20px;
+	display:block;
+	padding: 20px 0px 0px 50px;
+	position: relative;
+}
+
+blockquote blockquote {
+	margin-bottom: 0px;
+}
+
+blockquote::before {
+	content: "\201C"; /*Unicode for Left Double Quote*/
+	/*Font*/
+	font-family: Georgia, serif;
+	font-weight: bold;
+	font-size: 120px;
+	color: #EEEEEE;
+	z-index: -1;
+	
+	/*Positioning*/
+	position: absolute;
+	left: -10px;
+	top: 40px;
+}
+
+blockquote::after {
+	/*Reset to make sure*/
+	content: "";
+}
+
+blockquote p {
+	margin: 0px auto 20px auto;
+	font-family: 'Lato Lite';
+}
+
+blockquote p em {
+	font-style: italic;
+}
+
+/*****************************************************************************/
+/*
+/* Text and Code
+/*
+/*****************************************************************************/
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.highlight {
+	margin: 10px;
+	text-shadow: none;
+}
+
+.post pre {
+	margin: 0px;
+	padding: 10px;
+}
+
+.post ul, .post ol {
+	margin-left: 1.35em;
+}
+
+code {
+	color: #586E75;
+	padding: 0px 5px;
+	text-shadow: none;
+	background-color: #EFEFEF;
+}
+
+/*****************************************************************************/
+/*
+/* Responsive Design Code
+/*
+/*****************************************************************************/
+
+/* PHONE - 767px */
+@media screen and (max-width:767px) {
+	h1 {
+		font-size: 48px;
+	}
+	
+	h4 {
+		font-size: 14px;
+	}
+}

@@ -12,11 +12,24 @@ body {
 	-webkit-font-smoothing:antialiased;
 	text-shadow: 0px 1px white;
 	background-color: #FEFEFE;
+	word-wrap: break-word;
 	font-family: 'Lato';
 	font-weight: normal;
 	text-align: center;
 	font-size: 18px;
 	color: #404040;
+	
+	/* Fix for code wrapping */
+	-ms-word-break: break-all;
+    word-break: break-all;
+
+	/* Non standard for webkit */
+     word-break: break-word;
+
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
 }
 
 html, body {
@@ -32,8 +45,11 @@ strong {
 }
 
 a {
-	color: #E96944;
+	-webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 	text-decoration: none;
+	color: #E96944;
 }
 
 a:hover {
@@ -145,7 +161,6 @@ p {
 
 .header {
 	color: white;
-	padding: 10px;
 	text-shadow: none;
 	background-color: #605448;
 }

@@ -4,7 +4,7 @@ layout: blog
 
 <div class="post_header">
 	{% if page.featured_image %}
-	<img class="post_featured_image" src="{{page.featured_image}}" alt="{{ page.title }}" />
+	<img class="post_featured_image" src="/images/posts/{{page.featured_image}}" alt="{{ page.title }}" />
 	{% endif %}
 	<h1>{{ page.title }}</h1>
 	<h4 class="meta">Written by <a href="{{ page.author_url }}?rel=author">{{ page.author }}</a> on {{ page.date | date_to_string }}</h4>
@@ -14,7 +14,7 @@ layout: blog
 	{% if page.comments_enabled %}
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
-		var disqus_shortname = 'gtranchedone';
+		var disqus_shortname = 'cocoabeans';
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -28,3 +28,4 @@ layout: blog
 </div>
 <div class="post_footer">
 </div>
+    
