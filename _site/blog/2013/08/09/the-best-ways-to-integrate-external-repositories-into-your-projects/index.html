@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    	<!--<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" title="favicon">-->
         <title>The best ways to integrate external repositories into your projects</title>
-        <!--<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" title="favicon">-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        
+        
+        <link rel="author" href="https://plus.google.com/u/1/+GianlucaTranchedone">
+        
+    	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
         <!-- Syntax Highlighting CSS -->
         <link href="/css/syntax.css" type="text/css" rel="stylesheet"/>
         <!-- Custom CSS -->
@@ -36,8 +43,8 @@
 <!-- END Google Anaytics -->
     </head>
     <body>
-    	<div class="header">
-    		<div class="nav_hold">
+    	<header>
+    		<nav class="nav_hold">
 	<div class="nav_logo">
 		<img src="/images/cocoa_beans_logo.png" alt="Cocoa Beans Ltd Logo" width="200px" height="80px" />
 	</div>
@@ -50,19 +57,20 @@
    		<li ><a href="/contacts">Contacts</a></li>
 	</ul>
 	<div class="clear"></div>
-</div>
-    	</div>
-		<div class="page_container">
+</nav>
+    	</header>
+		<section class="page_container">
 			<div id="blog">
-	<div class="post_header">
-	
-	<img class="post_featured_image" src="/images/posts/2013-08-09-the-best-ways-to-integrate-external-repositories-into-your-projects/post_banner.png" alt="The best ways to integrate external repositories into your projects" />
-	
-	<h1>The best ways to integrate external repositories into your projects</h1>
-	<h4 class="meta">Written by <a href="https://plus.google.com/u/1/+GianlucaTranchedone?rel=author">Gianluca Tranchedone</a> on 09 Aug 2013</h4>
-</div>
-<div class="post">
-	<p>When I started using version control systems (VCS) a few years ago, I&#39;ve searched for the best way to integrate external repositories into my own. At that time, everyone I knew was simply copying the contents of those repositories into their project and eventually maintain that code alongside their own, often without giving anything back when fixing bugs in opens source libraries. What I was looking for, instead, was a way to integrate such libraries so that it would be trivial to get updates or to contribute back to those projects; but most of all, I wanted to share reusable components across multiple projects in a way that allowed me to only maintain the shared code once and get updates everywhere instantly. It turns out that all the most used VCS support such think in a way or another, but, as you&#39;ll see by the time you finish reading this, there also are tools that do not strictly require a specific VCS in order to accomplish the same task.</p>
+	<article>
+	<section class="post_header">
+		
+		<img class="post_featured_image" src="/images/posts/2013-08-09-the-best-ways-to-integrate-external-repositories-into-your-projects/post_banner.png" alt="The best ways to integrate external repositories into your projects" />
+		
+		<h1>The best ways to integrate external repositories into your projects</h1>
+		<h4 class="meta">09 Aug 2013</h4>
+	</section>
+	<section class="post">
+		<p>When I started using version control systems (VCS) a few years ago, I&#39;ve searched for the best way to integrate external repositories into my own. At that time, everyone I knew was simply copying the contents of those repositories into their project and eventually maintain that code alongside their own, often without giving anything back when fixing bugs in opens source libraries. What I was looking for, instead, was a way to integrate such libraries so that it would be trivial to get updates or to contribute back to those projects; but most of all, I wanted to share reusable components across multiple projects in a way that allowed me to only maintain the shared code once and get updates everywhere instantly. It turns out that all the most used VCS support such think in a way or another, but, as you&#39;ll see by the time you finish reading this, there also are tools that do not strictly require a specific VCS in order to accomplish the same task.</p>
 
 <!-- more -->
 
@@ -159,28 +167,31 @@ Although I haven&#39;t shown it in this post, you can also target dependencies t
 
 <p>What&#39;s your opinion on that? How are you managing dependencies in your projects? Tell us in the comments below!</p>
 
-	
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-		var disqus_shortname = 'cocoabeans';
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-	</script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-	
-</div>
-<div class="post_footer">
-</div>
-    
+	</section>
+	<section class="post_footer">
+	</section>
+	<section class="comments">
+		
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+			var disqus_shortname = 'cocoabeans';
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+            	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		
+	</section>
+</article>
+
 </div>
 
-		</div>
-		<div class="footer">
+		</section>
+		<footer>
     		<div id="copyright">
 	<h5>&copy; 2013-
 		<script type="text/javascript">
@@ -191,7 +202,6 @@ Although I haven&#39;t shown it in this post, you can also target dependencies t
 		</script> Cocoa Beans GT Limited. Company registered in England and Wales with number 8650961. VAT registration number 169 2683 68. All rights reserved.
 	</h5>
 </div>
-<!-- Social Links -->
 <ul class="social_links_list" id="social">
 	<li>
 		<a href="http://twitter.com/gtranchedone">
@@ -224,7 +234,6 @@ Although I haven&#39;t shown it in this post, you can also target dependencies t
 		</a>
 	</li>
 </ul>
-<!-- END Social Links -->
-		</div>
+		</footer>
     </body>
 </html>

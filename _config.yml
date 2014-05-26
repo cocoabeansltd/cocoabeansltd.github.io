@@ -1,5 +1,5 @@
 baseurl: /
-permalink: /blog/:title
+permalink: /blog/:year/:month/:day/:title
 url: http://cocoabeans.me
 name: Cocoa Beans
 description: "Cocoa Beans Ltd Official Website"

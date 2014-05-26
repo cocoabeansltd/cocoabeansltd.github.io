@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    	<!--<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" title="favicon">-->
         <title>{{ page.title }}</title>
-        <!--<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" title="favicon">-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}
+        {% if page.author_url %}
+        <link rel="author" href="{{ page.author_url }}">
+        {% endif %}
+    	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
         <!-- Syntax Highlighting CSS -->
         <link href="/css/syntax.css" type="text/css" rel="stylesheet"/>
         <!-- Custom CSS -->
@@ -23,14 +32,14 @@
         {% include google_analytics.html %}
     </head>
     <body>
-    	<div class="header">
+    	<header>
     		{% include navigation_bar.html %}
-    	</div>
-		<div class="page_container">
+    	</header>
+		<section class="page_container">
 			{{ content }}
-		</div>
-		<div class="footer">
+		</section>
+		<footer>
     		{% include footer.html %}
-		</div>
+		</footer>
     </body>
 </html>

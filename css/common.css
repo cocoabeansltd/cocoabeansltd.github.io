@@ -159,28 +159,28 @@ p {
 	/* margin-bottom: -212px; */
 }
 
-.header {
+header {
 	color: white;
 	text-shadow: none;
 	background-color: #605448;
 }
 
-.header div {
+header div {
 	color: inherit;
 }
 
-.footer {
+footer {
 	color: #A9A9A9;
 	text-shadow: none;
 	padding: 20px 0px;
 	background-color: #404040;
 }
 
-.footer div {
+footer div {
 	color: inherit;
 }
 
-.footer .social_links_list {
+footer .social_links_list {
 	margin: 10px;
 	margin-bottom: 0em;
 }
