@@ -3,3 +3,7 @@ id: about
 layout: page
 title: Cocoa Beans - About
 ---
+{% assign tests = "one|two|three" | split: "|" %}
+{% for number in tests %}
+<p>{{ number }}</p><br>
+{% endfor %}

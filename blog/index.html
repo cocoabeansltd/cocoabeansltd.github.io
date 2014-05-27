@@ -11,7 +11,7 @@ style: /css/blog.css
 			<img class="post_featured_image" src="/images/posts/{{post.featured_image}}" alt="{{ page.title }}" />
 		{% endif %}
 		<a href="{{ post.url }}" class="excerpt_post_title"><h1>{{ post.title }}</h1></a>
-		<h4 class="meta">{{ post.date | date_to_string }}</h4>
+		<h4 class="meta">{{ post.date | date_to_long_string }}</h4>
 	</section>
 	<section class="post">
 		{% if post.content contains "<!-- more -->" %}
