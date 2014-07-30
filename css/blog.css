@@ -106,32 +106,13 @@
 
 blockquote {
 	margin: 20px;
-	padding: 10px 0px 0px 50px;
+	padding-left: 10px;
 	position: relative;
+	border-left: 3px solid #FF9C01;
 }
 
 blockquote blockquote {
 	margin-bottom: 0px;
-}
-
-blockquote::before {
-	content: "\201C"; /*Unicode for Left Double Quote*/
-	/*Font*/
-	font-family: Georgia, serif;
-	font-weight: bold;
-	font-size: 120px;
-	color: #EEEEEE;
-	z-index: -1;
-	
-	/*Positioning*/
-	position: absolute;
-	left: -15px;
-	top: -45px;
-}
-
-blockquote::after {
-	/*Reset to make sure*/
-	content: "";
 }
 
 blockquote p {
@@ -142,6 +123,12 @@ blockquote p em {
 	font-style: italic;
 }
 
+.quote_author {
+	display: block;
+	text-align: right;
+	font-style: italic;
+}
+
 /*****************************************************************************/
 /*
 /* Text and Code
@@ -149,7 +136,7 @@ blockquote p em {
 /*****************************************************************************/
 
 h1 {
-	font-size: 60px;
+	font-size: 48px;
 	line-height: 1.2;
 	text-align: center;
 }
