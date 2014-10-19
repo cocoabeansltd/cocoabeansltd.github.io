@@ -8,10 +8,16 @@
 /*
 /*****************************************************************************/
 
+html, body, .page_container {
+	background-color: #FEFEFE;
+/* 	height: 100%; */
+	padding: 0px;
+	margin: 0px;
+}
+
 body {
 	-webkit-font-smoothing:antialiased;
 	text-shadow: 0px 1px white;
-	background-color: #FEFEFE;
 	font-family: 'Lato';
 	font-weight: normal;
 	text-align: center;
@@ -24,12 +30,6 @@ body {
        -moz-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
-}
-
-html, body {
-	/* height: 100%; */
-	padding: 0px;
-	margin: 0px;
 }
 
 strong {
@@ -111,7 +111,12 @@ h5 {
 }
 
 p {
-	margin: 0px 0px 30px 0px;
+	margin-top: 0px;
+	margin-bottom:30px;
+}
+
+p:last-child {
+	margin-bottom: 0px;
 }
 
 /*****************************************************************************/
@@ -145,12 +150,13 @@ p {
 /*****************************************************************************/
 
 .page_container {
-	height: 100%;
-	/* -134px for the footer and -78px for the header */
-	/* margin-bottom: -212px; */
+	padding: 0px;
+	text-align: justify;
 }
 
 header {
+	z-index: 10;
+	clear: both;
 	color: white;
 	text-shadow: none;
 	background-color: #605448;
@@ -172,7 +178,7 @@ footer div {
 }
 
 footer .social_links_list {
-	margin: 10px;
+	margin: 20px;
 	margin-bottom: 0em;
 }
 
@@ -206,7 +212,7 @@ footer .social_links_list {
 
 .social_links_list li {
 	display: inline-block;
-	margin: 10px;
+	margin: 0px 10px;
 }
 
 .social_links_list a {
@@ -224,4 +230,41 @@ footer .social_links_list {
 
 .social_links_list a:visited:hover {
 	color: #F8C72E;
+}
+
+/*****************************************************************************/
+/*
+/* Home Page
+/*
+/*****************************************************************************/
+
+.content_container {
+	position: relative;
+	padding: 10px;
+	height: 200px;
+	width: 100%;
+}
+
+#main {
+	background-color: red;
+}
+
+#services {
+	background-color: yellow;
+}
+
+#products {
+	background-color: green;
+}
+
+#contacts {
+	background-color: blue;
+}
+
+#blog_excerpts {
+	background-color: purple;	
+}
+
+#about {
+	background-color: lime;
 }
