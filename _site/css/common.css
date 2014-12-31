@@ -246,7 +246,8 @@ footer .social_links_list {
 }
 
 #main {
-	background-color: red;
+	padding: 0px;
+	height: auto;
 }
 
 #services {
@@ -267,4 +268,16 @@ footer .social_links_list {
 
 #about {
 	background-color: lime;
+}
+
+/*****************************************************************************/
+/*
+/* Other
+/*
+/*****************************************************************************/
+
+.full_width_image {
+	width: 100%;
+	height: auto;
+	display: block;
 }
