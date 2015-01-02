@@ -155,9 +155,11 @@ p:last-child {
 }
 
 header {
+	top: 0;
+	width: 100%;
 	z-index: 10;
-	clear: both;
 	color: white;
+	position: fixed;
 	text-shadow: none;
 	background-color: #605448;
 }
@@ -167,9 +169,12 @@ header div {
 }
 
 footer {
+	bottom: 0;
+	width: 100%;
 	color: #A9A9A9;
+/* 	position: fixed; */
 	text-shadow: none;
-	padding: 20px 0px;
+	padding: 30px 0px;
 	background-color: #404040;
 }
 
@@ -178,12 +183,12 @@ footer div {
 }
 
 footer .social_links_list {
-	margin: 20px;
-	margin-bottom: 0em;
+	margin: 0px 20px;
 }
 
 #copyright {
-	margin: 10px;
+	margin: 20px;
+	margin-bottom: 0;
 	font-style: italic;
 }
 
@@ -234,40 +239,69 @@ footer .social_links_list {
 
 /*****************************************************************************/
 /*
-/* Home Page
+/* Containers
 /*
 /*****************************************************************************/
 
+.page_container {
+	margin-top: 80px;
+/* 	margin-bottom: 150px; */
+}
+
 .content_container {
 	position: relative;
+	overflow: hidden;
+	padding: 30px;
+}
+
+/*****************************************************************************/
+/*
+/* Forms
+/*
+/*****************************************************************************/
+
+.form {
+	min-width: 300px;
+	margin: 0px auto;
 	padding: 10px;
-	height: 200px;
+}
+
+input, textarea {
+	color: #404040;
+	background: #FFFFFF;
+	border: 1px solid #c6c7cc;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	border-radius: 4px;
+	margin-top: 6px;
+	padding: 6px;
+	display: block;
 	width: 100%;
+	min-height: 24px;
+	font-size: 16px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-#main {
-	padding: 0px;
-	height: auto;
+.form_submit_button {
+	color: white;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #e96944;
+	border: 0;
+	border-bottom: 2px solid #9e452c;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #9e452c;
+	box-shadow: inset 0 -2px #9e452c;
+	margin: 10px 0px 0px auto;
+	padding: 10px 20px;
+	width: auto;
 }
 
-#services {
-	background-color: yellow;
-}
-
-#products {
-	background-color: green;
-}
-
-#contacts {
-	background-color: blue;
-}
-
-#blog_excerpts {
-	background-color: purple;	
-}
-
-#about {
-	background-color: lime;
+.form_submit_button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 /*****************************************************************************/
@@ -277,7 +311,14 @@ footer .social_links_list {
 /*****************************************************************************/
 
 .full_width_image {
-	width: 100%;
-	height: auto;
+	margin: 0px auto;
 	display: block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 450px;
+}
+
+.clear {
+	clear: both;
 }

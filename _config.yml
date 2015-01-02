@@ -4,10 +4,10 @@ url: http://cocoabeans.me
 name: Cocoa Beans
 description: "Cocoa Beans Ltd Official Website"
 timezone: Europe/London
+highlighter: pygments
 markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
 encoding: utf-8
-pygments: true
 safe: true
 lsi: false

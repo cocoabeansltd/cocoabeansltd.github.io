@@ -2,17 +2,36 @@
 id: home
 layout: page
 title: Cocoa Beans
+style: /css/index.css
 ---
 <section class='content_container' id='main'>
 	<img class='full_width_image' src="images/homepage_banner.png">
 </section>
-<section class='content_container' id='services'>
-</section>
 <section class='content_container' id='products'>
+</section>
+<section class='content_container' id='services'>
 </section>
 <section class='content_container' id='blog_excerpts'>
 </section>
 <section class='content_container' id='about'>
 </section>
 <section class='content_container' id='contacts'>
+	<h1>Contacts</h1>
+	<h2>Are you using or thinking of using one of our products?</br>Can I help with your project?</h2>
+	<div id="contact_info">
+		<h3>Address</h3>
+		<p><strong>Cocoa Beans GT Ltd.</strong></br>3 Howe House</br>20 Love Lane</br>Woolwich</br>London</br>SE18 6HW</p>
+		<h3>Social Networks</h3>
+		<p>See the links in the page footer.</p>
+	</div>
+	<div class="form" id="contact_form">
+		<h3>Email</h3>
+		<form>
+			<input type="email" name="email" placeholder="youremail@example.com" id="contacts_form_email" required>
+			<input type="text"  name="name" placeholder="Your Name" id="contacts_form_name" required>
+			<input type="text"  name="subject" placeholder="Subject" required>
+			<textarea  name="message" placeholder="Your Message" id="contacts_form_message" required></textarea>
+			<input type="submit"  name="submit" value="Send" class="form_submit_button">
+		</form>
+	</div>
 </section>

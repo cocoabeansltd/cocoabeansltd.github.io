@@ -43,20 +43,24 @@
     </head>
     <body>
     	<header>
-    		<nav class="nav_hold">
-	<div class="nav_logo">
-		<img src="/images/cocoa_beans_logo.png" alt="Cocoa Beans Ltd Logo" width="200px" height="80px" />
+    		<nav>
+	<div class="nav_hold">
+		<div class="nav_logo">
+			<img src="/images/cocoa_beans_logo.png" alt="Cocoa Beans Ltd Logo" width="200px" height="80px" />
+		</div>
+		<div class="nav_menu_container">
+			<a class="nav_button" id="nav_button">&#9776;</a>
+			<ul class="nav_menu" id="nav">
+				<li><a href="/">Home</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contacts">Contacts</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
 	</div>
-	<a class="nav_button" id="nav_button">&#9776;</a>
-	<ul class="nav_menu" id="nav">
-		<li><a href="/">Home</a></li>
-		<li><a href="#products">Products</a></li>
-   		<li><a href="#services">Services</a></li>
-   		<li><a href="#about">About</a></li>
-   		<li><a href="#contacts">Contacts</a></li>
-   		<li><a href="/blog">Blog</a></li>
-	</ul>
-	<div class="clear"></div>
 </nav>
     	</header>
 		<section class="page_container">
@@ -117,17 +121,7 @@
 -->
 		</section>
 		<footer>
-    		<div id="copyright">
-	<h5>&copy; 2013-
-		<script type="text/javascript">
-			now = new Date
-			theYear = now.getYear()
-			if (theYear < 1900) theYear += 1900
-			document.write(theYear)
-		</script> Cocoa Beans GT Limited. Company registered in England and Wales with number 8650961.</br>VAT registration number 169 2683 68. All rights reserved.
-	</h5>
-</div>
-<ul class="social_links_list" id="social">
+    		<ul class="social_links_list" id="social">
 	<li>
 		<a href="http://twitter.com/cocoabeansltd">
 			<div class="socialButton" id="socialButtonTwitter">&#xe005;</div>
@@ -164,6 +158,16 @@
 		</a>
 	</li>
 </ul>
+<div id="copyright">
+	<h5>&copy; 2013-
+		<script type="text/javascript">
+			now = new Date
+			theYear = now.getYear()
+			if (theYear < 1900) theYear += 1900
+			document.write(theYear)
+		</script> Cocoa Beans GT Limited. Company registered in England and Wales with number 8650961.</br>VAT registration number 169 2683 68. All rights reserved.
+	</h5>
+</div>
 		</footer>
 		<script type="text/javascript">
     (function(w, d){

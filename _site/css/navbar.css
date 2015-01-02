@@ -1,23 +1,32 @@
+nav {
+	overflow: hidden;
+}
+
 .clear {
 	clear: both;
 }
 
 .nav_hold {
-	overflow: hidden;
+	padding: 0px 20px;
+	height: 80px;
 }
 
 .nav_logo {
-	float: left;
 	width: auto;
 	max-width: 70%;
 	max-height: 80px;
 	display: inline-block;
-	padding: 0px 10px 0px 50px;
+}
+
+.nav_menu_container {
+	color: inherit;
+	margin-left: 50px;
+	display: inline-block;
 }
 
 .nav_menu {
-	padding: 28px 50px 28px 10px;
 	display: inline-block;
+	padding: 28px 10px;
 	list-style: none;
 	float: right;
 	margin: 0px;
@@ -29,6 +38,7 @@
 	font-size: 20px;
 	font-weight: bold;
 }
+
 
 .nav_menu li a {
 	color: inherit;
