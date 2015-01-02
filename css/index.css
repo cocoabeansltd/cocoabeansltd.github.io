@@ -83,3 +83,16 @@
 	height: 150px;
 	vertical-align: top;
 }
+
+@media screen and (max-width:400px) {
+	
+	#contact_info {
+		display: block;
+		width: 100%;
+	}
+	
+	#contact_form {
+		display: block;
+		width: 100%;
+	}
+}
