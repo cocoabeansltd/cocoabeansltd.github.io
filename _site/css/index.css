@@ -34,12 +34,16 @@
 	height: auto;
 }
 
-#services {
-	background-color: yellow;
+#products {
+	background-color: #EEEEEE;
 }
 
-#products {
-	background-color: green;
+#services {
+	background-color: white;
+}
+
+#about {
+	background-color: #EEEEEE;
 }
 
 #contacts {
@@ -48,14 +52,6 @@
 
 #contacts div {
 	text-align: left;
-}
-
-#blog_excerpts {
-	background-color: #4E5860;
-}
-
-#about {
-	background-color: #947A61;
 }
 
 /*****************************************************************************/
@@ -82,4 +78,17 @@
 #contacts_form_message {
 	height: 150px;
 	vertical-align: top;
+}
+
+@media screen and (max-width:400px) {
+	
+	#contact_info {
+		display: block;
+		width: 100%;
+	}
+	
+	#contact_form {
+		display: block;
+		width: 100%;
+	}
 }

@@ -23,7 +23,7 @@ $(document).ready(function() {
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top - 80
 	    }, 900, 'swing', function () {
-	        window.location.hash = target;
+		    // do nothing
 	    });
 	});
 });

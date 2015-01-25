@@ -162,6 +162,7 @@ header {
 	position: fixed;
 	text-shadow: none;
 	background-color: #605448;
+	opacity: 0.98;
 }
 
 header div {
