@@ -1,0 +1,85 @@
+
+body {
+	height: 100%;
+	color: #666666;
+	text-shadow: none;
+}
+
+h2 {
+	margin: 20px auto 10px auto;
+}
+
+h6 {
+	margin: 0px auto;
+	max-width: 450px;
+	font-weight: normal;
+}
+
+a, a:visited {
+	color: #F5675C;
+}
+
+a:hover, a:visited:hover {
+	color: #F8C72E;
+}
+
+#pomodorino-top {
+	background-image: url('/images/pomodorino/blurred-bg.png');
+	background-size: cover;
+	padding: 20px;
+}
+
+#top-container {
+	margin: 0px auto;
+}
+
+#header-text {
+	color: white;
+}
+
+#header-text img {
+	margin: 10px;
+}
+
+.logo {
+	margin: 20px auto;
+}
+
+.devices {
+	margin: 20px auto;
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+.main {
+	padding: 20px;
+}
+
+.badges {
+	margin: 20px;
+}
+
+.badges img {
+	margin: 20px;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	background-color: #F5675C;
+}
+
+footer h5 {
+	color: white;
+}
+
+footer #maker {
+	margin: 20px;
+	margin-top: 0px;
+	font-size: 16px;
+}
+
+footer div a:active, footer div a:visited {
+	color: white;
+}
