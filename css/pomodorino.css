@@ -15,7 +15,7 @@ h6 {
 	font-weight: normal;
 }
 
-a:active, a:visited {
+a, a:visited {
 	color: #FFFFFF;
 	font-size: 14px;
 	opacity: 0.8;
@@ -64,6 +64,10 @@ a:hover, a:visited:hover {
 
 .badges img {
 	margin: 20px;
+}
+
+.links-separator {
+	margin: 0px 10px;
 }
 
 footer {

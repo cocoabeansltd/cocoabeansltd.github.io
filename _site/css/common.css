@@ -224,20 +224,12 @@ footer .social_links_list {
 	display: inline-block;
 }
 
-.social_links_list a {
+.social_links_list a, .social_links_list a:visited {
 	color: inherit;
 	display: block;
 }
 
-.social_links_list a:hover {
-	color: #F8C72E;
-}
-
-.social_links_list a:visited {
-	color: inherit;
-}
-
-.social_links_list a:visited:hover {
+.social_links_list a:hover, .social_links_list a:visited:hover {
 	color: #F8C72E;
 }
 
