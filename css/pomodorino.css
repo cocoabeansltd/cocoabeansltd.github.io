@@ -6,7 +6,7 @@ body {
 }
 
 h2 {
-	margin: 20px auto 10px auto;
+	margin: 40px auto 10px auto;
 }
 
 h6 {
@@ -16,7 +16,9 @@ h6 {
 }
 
 a, a:visited {
-	color: #F5675C;
+	color: #FFFFFF;
+	font-size: 14px;
+	opacity: 0.8;
 }
 
 a:hover, a:visited:hover {
@@ -57,7 +59,7 @@ a:hover, a:visited:hover {
 }
 
 .badges {
-	margin: 20px;
+	margin: 30px;
 }
 
 .badges img {
@@ -80,6 +82,6 @@ footer #maker {
 	font-size: 16px;
 }
 
-footer div a:active, footer div a:visited {
+footer a:active, footer div a:visited {
 	color: white;
 }
