@@ -16,7 +16,6 @@ html, body, .page_container {
 
 body {
 	-webkit-font-smoothing:antialiased;
-	text-shadow: 0px 1px white;
 	font-family: 'Lato';
 	font-weight: normal;
 	text-align: center;
@@ -58,13 +57,12 @@ a:visited:hover {
 }
 
 h1 {
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 	color: #FF9C01;
 	font-size: 36px;
 	font-weight: normal;
 	line-height: normal;
-	text-shadow: 0px 1px white;
 	text-transform: capitalize;
 	font-family: 'Sorts Mill Goudy';
 }
@@ -159,7 +157,6 @@ header {
 	z-index: 10;
 	color: white;
 	position: fixed;
-	text-shadow: none;
 	background-color: #605448;
 	opacity: 0.98;
 }
@@ -172,7 +169,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	color: #A9A9A9;
-	text-shadow: none;
+	font-size: 14px;
 	background-color: #404040;
 }
 

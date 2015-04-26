@@ -5,15 +5,29 @@ title: Cocoa Beans
 style: /css/index.css
 ---
 <section class='content_container' id='main'>
-	<img class='full_width_image' src="images/homepage_banner.png">
-</section>
-<section class='content_container' id='products'>
-	<h1>Products</h1>
-	<h2>Apps that help you everyday</h2>
+	<img class='full_width_image' src="images/cocoabeans/homepage_banner.png">
 </section>
 <section class='content_container' id='services'>
 	<h1>Services</h1>
 	<h2>Need help with your project?</h2>
+	<div class="keypoints">
+		<div id="concept">
+			<img src="/images/cocoabeans/light-bulb.png" width="auto" height="50px">
+			<span>Concept</span>
+		</div>
+		<div id="design">
+			<img src="/images/cocoabeans/pencil.png" width="auto" height="50px">
+			<span>Design</span>
+		</div>
+		<div id="development">
+			<img src="/images/cocoabeans/laptop.png" width="auto" height="50px">
+			<span>Development</span>
+ 		</div>
+	</div>
+</section>
+<section class='content_container' id='products'>
+	<h1>Products</h1>
+	<h2>Apps that help you everyday</h2>
 </section>
 <section class='content_container' id='about'>
 	<h1>About</h1>
@@ -22,12 +36,6 @@ style: /css/index.css
 <section class='content_container' id='contacts'>
 	<h1>Contacts</h1>
 	<h2>Are you using or thinking of using one of our products?</br>Can I help with your project?</h2>
-	<div id="contact_info">
-		<h3>Address</h3>
-		<p><strong>Cocoa Beans GT Ltd.</strong></br>3 Howe House</br>20 Love Lane</br>Woolwich</br>London</br>SE18 6HW</p>
-		<h3>Social Networks</h3>
-		<p>See the links in the page footer.</p>
-	</div>
 	<div class="form" id="contact_form">
 		<h3>Email</h3>
 		<form>
@@ -35,7 +43,7 @@ style: /css/index.css
 			<input type="text"  name="name" placeholder="Your Name" id="contacts_form_name" required>
 			<input type="text"  name="subject" placeholder="Subject" required>
 			<textarea  name="message" placeholder="Your Message" id="contacts_form_message" required></textarea>
-			<input type="submit"  name="submit" value="Send" class="form_submit_button">
+			<input id="send-email" type="submit"  name="submit" value="Send" class="form_submit_button">
 		</form>
 	</div>
 </section>

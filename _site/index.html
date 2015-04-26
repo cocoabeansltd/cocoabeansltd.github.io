@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head profile="http://www.w3.org/2005/10/profile">
-	<link rel="icon" type="image/png" href="/images/favicon.png">
+	<link rel="icon" type="image/png" href="/images/cocoabeans/favicon.png">
 	<!--<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" title="favicon">-->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <title>Cocoa Beans</title>
     
     
@@ -46,16 +47,18 @@
     		<nav>
 	<div class="nav_hold">
 		<div class="nav_logo">
-			<a href="/"><img src="/images/cocoa_beans_logo.png" alt="Cocoa Beans Ltd Logo" width="200px" height="80px"/></a>
+			<a href="/#">
+				<img src="/images/cocoabeans/cocoa_beans_logo.png" alt="Cocoa Beans Ltd Logo" width="200px" height="80px"/>
+			</a>
 		</div>
 		<div class="nav_menu_container">
 			<a class="nav_button" id="nav_button">&#9776;</a>
 			<ul class="nav_menu" id="nav">
-				<li><a href="#products">Products</a></li>
 				<li><a href="#services">Services</a></li>
+				<li><a href="#products">Products</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#contacts">Contacts</a></li>
-				<li><a href="/blog">Blog</a></li>
+<!-- 				<li><a href="/blog">Blog</a></li> -->
 			</ul>
 		</div>
 		<div class="clear"></div>
@@ -64,15 +67,29 @@
     	</header>
 		<section class="page_container">
 			<section class='content_container' id='main'>
-	<img class='full_width_image' src="images/homepage_banner.png">
-</section>
-<section class='content_container' id='products'>
-	<h1>Products</h1>
-	<h2>Apps that help you everyday</h2>
+	<img class='full_width_image' src="images/cocoabeans/homepage_banner.png">
 </section>
 <section class='content_container' id='services'>
 	<h1>Services</h1>
 	<h2>Need help with your project?</h2>
+	<div class="keypoints">
+		<div id="concept">
+			<img src="/images/cocoabeans/light-bulb.png" width="auto" height="50px">
+			<span>Concept</span>
+		</div>
+		<div id="design">
+			<img src="/images/cocoabeans/pencil.png" width="auto" height="50px">
+			<span>Design</span>
+		</div>
+		<div id="development">
+			<img src="/images/cocoabeans/laptop.png" width="auto" height="50px">
+			<span>Development</span>
+ 		</div>
+	</div>
+</section>
+<section class='content_container' id='products'>
+	<h1>Products</h1>
+	<h2>Apps that help you everyday</h2>
 </section>
 <section class='content_container' id='about'>
 	<h1>About</h1>
@@ -81,12 +98,6 @@
 <section class='content_container' id='contacts'>
 	<h1>Contacts</h1>
 	<h2>Are you using or thinking of using one of our products?</br>Can I help with your project?</h2>
-	<div id="contact_info">
-		<h3>Address</h3>
-		<p><strong>Cocoa Beans GT Ltd.</strong></br>3 Howe House</br>20 Love Lane</br>Woolwich</br>London</br>SE18 6HW</p>
-		<h3>Social Networks</h3>
-		<p>See the links in the page footer.</p>
-	</div>
 	<div class="form" id="contact_form">
 		<h3>Email</h3>
 		<form>
@@ -94,13 +105,14 @@
 			<input type="text"  name="name" placeholder="Your Name" id="contacts_form_name" required>
 			<input type="text"  name="subject" placeholder="Subject" required>
 			<textarea  name="message" placeholder="Your Message" id="contacts_form_message" required></textarea>
-			<input type="submit"  name="submit" value="Send" class="form_submit_button">
+			<input id="send-email" type="submit"  name="submit" value="Send" class="form_submit_button">
 		</form>
 	</div>
 </section>
 		</section>
 		<footer>
 			<div class="footer-container">
+				Brewed with love in London
     			<ul class="social_links_list" id="social">
 	<li>
 		<a href="http://twitter.com/cocoabeansltd">

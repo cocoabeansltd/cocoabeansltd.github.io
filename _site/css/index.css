@@ -4,21 +4,28 @@
 /*
 /*****************************************************************************/
 
+#main {
+	background-color: white;
+	padding: 0px;
+	height: auto;
+}
+
 .content_container {
 	text-align: center;
+	padding: 20px 0px;
 }
 
 .content_container h1 {
 	text-transform: uppercase;
 	font-family: 'Lato';
 	font-size: 30px;
-	color: #333333;
+	color: #4A4A4A;
 }
 
 .content_container h2 {
 	font-family: 'Lato';
-	font-size: 24px;
-	color: #C4C4C4;
+	font-size: 20px;
+	color: #979797;
 	margin: 10px; 
 }
 
@@ -28,22 +35,40 @@
 /*
 /*****************************************************************************/
 
-#main {
-	background-color: white;
-	padding: 0px;
-	height: auto;
+.keypoints {
+	margin: 10px auto;
+	padding: 0px 20px;
+	display: inline-block;
 }
 
-#products {
-	background-color: #EEEEEE;
+.keypoints div {
+	margin: 20px 50px 0px 50px;
+	display: inline-block;
+	width: 120px;
+}
+
+.keypoints div * {
+	display: block;
+	text-align: center;
+	font-family: 'Lato-Black';
+	margin: 0px auto 14px auto;
 }
 
 #services {
+	color: white;
+	background-color: #E96944;
+}
+
+#services h1, #services h2 {
+	color: white;
+}
+
+#products {
 	background-color: white;
 }
 
 #about {
-	background-color: #EEEEEE;
+	background-color: #F9F9F9;
 }
 
 #contacts {
@@ -60,19 +85,22 @@
 /*
 /*****************************************************************************/
 
-#contact_info {
-	display: inline-block;
-	margin: 20px;
-	float: left;
-	width: 40%;
-}
-
 #contact_form {
 	display: inline-block;
-	margin: 20px;
+	margin: 20px auto;
 	padding: 0px;
-	float: right;
 	width: 50%;
+}
+
+#contacts_form #send-email {
+	/* Rectangle 17: */
+	background: #E96944;
+	border-radius: 5px;
+	/* SEND  MESSAGE: */
+	font-family: Lato-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 15px;
 }
 
 #contacts_form_message {
@@ -80,15 +108,8 @@
 	vertical-align: top;
 }
 
-@media screen and (max-width:400px) {
-	
-	#contact_info {
+@media only screen and (max-width: 800px)  {
+	.keypoints div {
 		display: block;
-		width: 100%;
-	}
-	
-	#contact_form {
-		display: block;
-		width: 100%;
 	}
 }
