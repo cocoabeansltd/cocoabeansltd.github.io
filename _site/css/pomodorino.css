@@ -15,7 +15,7 @@ h6 {
 	font-weight: normal;
 }
 
-a, a:visited {
+a:active, a:visited {
 	color: #FFFFFF;
 	font-size: 14px;
 	opacity: 0.8;
@@ -68,6 +68,7 @@ a:hover, a:visited:hover {
 
 footer {
 	color: white;
+	font-size: 14px;
 	text-align: center;
 	background-color: #F5675C;
 }
@@ -79,7 +80,6 @@ footer h5 {
 footer #maker {
 	margin: 20px;
 	margin-top: 0px;
-	font-size: 16px;
 }
 
 footer a:active, footer div a:visited {
