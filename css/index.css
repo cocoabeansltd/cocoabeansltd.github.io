@@ -24,6 +24,7 @@
 
 .content_container h2 {
 	font-family: 'Lato';
+	font-weight: bold;
 	font-size: 20px;
 	color: #979797;
 	margin: 10px; 
@@ -99,7 +100,7 @@
 	border-radius: 5px;
 	/* SEND  MESSAGE: */
 	font-family: 'Lato';
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 14px;
 	color: #FFFFFF;
 	line-height: 15px;

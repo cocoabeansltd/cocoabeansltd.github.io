@@ -81,8 +81,8 @@ h1 a:visited {
 
 h2 {
 	color: #4E5860;
-	font-weight: normal;
-	font-family: 'Lato Bold';
+	font-weight: bold;
+	font-family: 'Lato';
 }
 
 h3 {
@@ -90,8 +90,8 @@ h3 {
 	margin: 20px 0px;
 	color: #4E5860;
 	font-size: 24px;
-	font-weight: normal;
-	font-family: 'Lato Bold';
+	font-weight: bold;
+	font-family: 'Lato';
 }
 
 h4 {
