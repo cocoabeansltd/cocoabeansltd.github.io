@@ -50,7 +50,8 @@
 .keypoints div * {
 	display: block;
 	text-align: center;
-	font-family: 'Lato-Black';
+	font-family: 'Lato';
+	font-weight: 900;
 	margin: 0px auto 14px auto;
 }
 
@@ -97,7 +98,8 @@
 	background: #E96944;
 	border-radius: 5px;
 	/* SEND  MESSAGE: */
-	font-family: Lato-Bold;
+	font-family: 'Lato';
+	font-weight: 700;
 	font-size: 14px;
 	color: #FFFFFF;
 	line-height: 15px;
