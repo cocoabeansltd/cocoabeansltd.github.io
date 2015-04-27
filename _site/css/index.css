@@ -17,14 +17,11 @@
 
 .content_container h1 {
 	text-transform: uppercase;
-	font-family: 'Lato';
 	font-size: 30px;
 	color: #4A4A4A;
 }
 
 .content_container h2 {
-	font-family: 'Lato';
-	font-weight: bold;
 	font-size: 20px;
 	color: #979797;
 	margin: 10px; 
@@ -87,28 +84,26 @@
 /*
 /*****************************************************************************/
 
-#contact_form {
+#contacts-form {
 	display: inline-block;
 	margin: 20px auto;
 	padding: 0px;
-	width: 50%;
+	max-width: 600px;
 }
 
-#contacts_form #send-email {
-	/* Rectangle 17: */
-	background: #E96944;
-	border-radius: 5px;
-	/* SEND  MESSAGE: */
-	font-family: 'Lato';
-	font-weight: bold;
-	font-size: 14px;
-	color: #FFFFFF;
-	line-height: 15px;
-}
-
-#contacts_form_message {
+#contacts-form-message {
 	height: 150px;
 	vertical-align: top;
+}
+
+#contacts-form-email, #contacts-form-name {
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+
+#contacts-form-name {
+	float: right;
 }
 
 @media only screen and (max-width: 800px)  {
