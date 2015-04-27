@@ -84,13 +84,6 @@
 /*
 /*****************************************************************************/
 
-#contacts-form {
-	display: inline-block;
-	margin: 20px auto;
-	padding: 0px;
-	max-width: 600px;
-}
-
 #contacts-form-message {
 	height: 150px;
 	vertical-align: top;

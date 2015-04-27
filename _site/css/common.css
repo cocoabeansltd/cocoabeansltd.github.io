@@ -252,12 +252,14 @@ footer .social_links_list {
 /*****************************************************************************/
 
 .form {
+	display: inline-block;
+	margin: 20px auto;
+	max-width: 600px;
 	min-width: 300px;
-	margin: 0px auto;
-	padding: 10px;
+	padding: 0px;
 }
 
-input, textarea {
+input, textarea, .wufoo input, .wufoo textarea {
 	padding: 10px;
 	margin: 10px auto;
 	background: #FFFFFF;
@@ -287,25 +289,18 @@ input, textarea {
    color: #BBBBBB;
 }
 
-.form-submit-button {
+.wufoo .form-submit-button, .form-submit-button {
 	margin: 10px auto;
+	padding: 14px;
 	background: #E96944;
 	border-radius: 5px;
 	border: none;
-	/* SEND  MESSAGE: */
 	line-height: 15px;
 	font-weight: bold;
 	font-size: 14px;
 	color: #FFFFFF;
 	display: block;
 	width: 100%;
-}
-
-.form_submit_button:active {
-  top: 1px;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 
 /*****************************************************************************/
