@@ -259,7 +259,7 @@ footer .social_links_list {
 	padding: 0px;
 }
 
-input, textarea, .wufoo input, .wufoo textarea {
+input, textarea {
 	padding: 10px;
 	margin: 10px auto;
 	background: #FFFFFF;
@@ -289,7 +289,7 @@ input, textarea, .wufoo input, .wufoo textarea {
    color: #BBBBBB;
 }
 
-.wufoo .form-submit-button, .form-submit-button {
+.form-submit-button {
 	margin: 10px auto;
 	padding: 14px;
 	background: #E96944;
