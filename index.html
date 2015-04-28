@@ -28,6 +28,38 @@ style: /css/index.css
 <section class='content_container' id='products'>
 	<h1>Products</h1>
 	<h2>Apps that help you everyday</h2>
+	<section class="products-column" id="ios-apps">
+		<h3>iOS apps</h3>
+		<hr>
+		<section class="app">
+			<a href="/apps/pomodorino/">
+				<img class="app-icon" src="images/pomodorino/icon-ios.png" width="50px" height="auto">
+				<div class="app-info">
+					<h2 class="app-name">Pomodorino</h2>
+					<p class="app-description">A powerful productivity app based on the Pomodoro Technique® for iPhone, iPad and Apple Watch</p>
+				</div>
+			</a>
+		</section>	
+	</section>
+	<section class="products-column" id="mac-apps">
+		<h3>Mac apps</h3>
+		<hr>
+		<section class="app">
+			<a href="/apps/pomodorino/">
+				<img class="app-icon" src="images/pomodorino/icon-mac.png" width="50px" height="auto">
+				<div class="app-info">
+					<h2 class="app-name">Pomodorino</h2>
+					<p class="app-description">A powerful productivity app based on the Pomodoro Technique® for Mac</p>
+				</div>
+			</a>
+		</section>
+	</section>
+<!--
+	<section class="products-column" id="in-dev-apps">
+		<h3>In progress</h3>
+		<hr>
+	</section>
+-->
 </section>
 <section class='content_container' id='about'>
 	<h1>About</h1>
@@ -35,10 +67,10 @@ style: /css/index.css
 </section>
 <section class='content_container' id='contacts'>
 	<h1>Contacts</h1>
-	<h2>Are you using or thinking of using one of our products?</br>Can I help with your project?</h2>
+	<h2>What can we do for you?</h2>
 	<div class="form" id="contacts-form">
 		<form action="//formspree.io/hello@cocoabeans.io" method="POST">
-			<input type="email" name="email" placeholder="youremail@example.com" id="contacts-form-email" required>
+			<input type="email" name="_replyto" placeholder="youremail@example.com" id="contacts-form-email" required>
 			<input type="text"  name="name" placeholder="Your Name" id="contacts-form-name" required>
 			<input type="text"  name="subject" placeholder="Subject" required>
 			<textarea  name="message" placeholder="Your Message" id="contacts-form-message" required></textarea>
