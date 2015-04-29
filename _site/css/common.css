@@ -10,6 +10,10 @@
 
 html, body, .page_container {
 	background-color: #FEFEFE;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 	padding: 0px;
 	margin: 0px;
 }
@@ -107,7 +111,6 @@ h5 {
 }
 
 p {
-	hyphens: none;
 	margin-top: 0px;
 	margin-bottom:30px;
 }
