@@ -174,4 +174,8 @@
 	.keypoints div {
 		display: block;
 	}
+	
+	.app {
+		display: inline;
+	}
 }
