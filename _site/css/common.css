@@ -107,6 +107,7 @@ h5 {
 }
 
 p {
+	hyphens: none;
 	margin-top: 0px;
 	margin-bottom:30px;
 }
@@ -260,6 +261,7 @@ footer .social_links_list {
 }
 
 input, textarea {
+	-webkit-appearance: none;
 	padding: 10px;
 	margin: 10px auto;
 	background: #FFFFFF;

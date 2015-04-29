@@ -20,7 +20,6 @@
 	max-width: 720px;
 	color: #666666;
 	margin: 0px auto;
-	padding: 20px;
 }
 
 .content_container h1 {
@@ -33,6 +32,11 @@
 	color: #979797;
 	font-size: 20px;
 	margin: 10px 20px;
+}
+
+.section-header {
+	margin: 20px;
+	text-align: center;
 }
 
 /*****************************************************************************/
@@ -136,10 +140,6 @@
 
 #contacts {
 	background-color: white;
-}
-
-#contacts div {
-	text-align: left;
 }
 
 /*****************************************************************************/
