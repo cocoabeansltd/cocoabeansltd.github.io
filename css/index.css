@@ -149,7 +149,7 @@
 /*****************************************************************************/
 
 #contacts-form {
-	max-width: 90%;
+	width: 100%;
 }
 
 #contacts-form-message {
@@ -159,7 +159,7 @@
 
 #contacts-form-email, #contacts-form-name {
     display: inline-block;
-    width: 44%;
+    width: 49%;
 }
 
 #contacts-form-email {
@@ -172,9 +172,24 @@
 
 @media only screen and (max-width: 800px)  {
 	.keypoints div {
+/* 		text-align: left; */
 		display: block;
+		width: auto;
 	}
 	
+	.keypoints div * {
+		margin: 0px 20px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+/*
+	.keypoints div img {
+		height: 40px;
+		width: auto;
+	}
+	
+*/
 	.app {
 		display: inline;
 	}

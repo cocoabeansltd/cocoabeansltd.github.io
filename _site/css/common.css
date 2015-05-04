@@ -185,13 +185,17 @@ footer .footer-container {
 }
 
 footer .social_links_list {
-	margin: 20px;
+	margin: 0px auto;
+}
+
+footer .social_links_list li {
+	margin: 20px 0px;
 }
 
 #copyright {
 	font-size: 12px;
 	max-width: 440px;
-	margin: 20px auto;
+	margin: 0px auto;
 	margin-bottom: 0px;
 	font-style: italic;
 }
@@ -255,18 +259,18 @@ footer .social_links_list {
 /*
 /*****************************************************************************/
 
-.form {
-	display: inline-block;
-	margin: 20px auto;
-	max-width: 500px;
-	min-width: 300px;
-	padding: 0px;
-}
-
-input, textarea {
-	-webkit-appearance: none;
+input, textarea, select, button {
+	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+    
+    -webkit-appearance: none;
+    
+    margin: 10px 0px;
 	padding: 10px;
-	margin: 10px auto;
+	display: block;
+	width: 100%;
+	
 	background: #FFFFFF;
 	border: 1px solid #D8D8D8;
 	border-radius: 5px;
@@ -274,8 +278,14 @@ input, textarea {
 	font-size: 18px;
 	color: #666666;
 	line-height: 24px;
-	display: block;
-	width: 96%;
+}
+
+.form-container {
+	display: inline-block;
+	margin: 0px auto;
+	padding: 0px;
+	width: 100%;
+	max-width: 600px;
 }
 
 ::-webkit-input-placeholder {
