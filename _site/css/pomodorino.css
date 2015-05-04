@@ -96,7 +96,7 @@ footer a:active, footer div a:visited {
 /********************************/
 
 #mc_embed_signup {
-	max-width: 650px;
+	max-width: 500px;
 	margin: 20px auto;
 }
 
@@ -104,17 +104,13 @@ footer a:active, footer div a:visited {
 	margin: 0px auto;
 }
 
-.mc-field-group * {
-	display: inline-block;
-}
-
 #mce-EMAIL {
 	float: left;
-	width: 84%;
+	width: 74%;
 }
 
 .button {
 	background: #F5675C;
 	float: right;
-	width: auto;
+	width: 25%;
 }
