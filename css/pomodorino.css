@@ -90,3 +90,31 @@ footer #maker {
 footer a:active, footer div a:visited {
 	color: white;
 }
+
+/********************************/
+/******** Sign-up Form **********/
+/********************************/
+
+#mc_embed_signup {
+	max-width: 650px;
+	margin: 20px auto;
+}
+
+.mc-field-group {
+	margin: 0px auto;
+}
+
+.mc-field-group * {
+	display: inline-block;
+}
+
+#mce-EMAIL {
+	float: left;
+	width: 84%;
+}
+
+.button {
+	background: #F5675C;
+	float: right;
+	width: auto;
+}

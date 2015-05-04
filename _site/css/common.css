@@ -305,7 +305,7 @@ input, textarea, select, button {
    color: #BBBBBB;
 }
 
-.form-submit-button {
+.button {
 	margin: 10px auto;
 	padding: 14px;
 	background: #E96944;
@@ -317,6 +317,15 @@ input, textarea, select, button {
 	color: #FFFFFF;
 	display: block;
 	width: 100%;
+	
+	cursor: pointer;
+	-webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.button:hover {
+	background: #F8C72E;
 }
 
 /*****************************************************************************/
