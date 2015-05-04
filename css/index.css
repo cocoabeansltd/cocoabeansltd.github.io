@@ -98,7 +98,6 @@
 }
 
 .products-column hr {
-	margin: 0px 0px 20px 0px;
 	border-color: #E96944;
 	border-style: solid;
 	color: #E96944;
@@ -106,13 +105,22 @@
 }
 
 .app {
+	-webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    border-radius: 10px;
 	text-align: left;
+	padding: 20px;
+}
+
+.app:hover {
+	background-color: rgba(236, 236, 236, 0.9);
 }
 
 .app-icon, .app-info {
 	vertical-align: middle;
 	display: inline-block;
-	max-width: 60%;
+	max-width: 70%;
 }
 
 .app-icon {
@@ -182,6 +190,6 @@
 	}
 	
 	.app {
-		display: inline;
+		display: inline-block;
 	}
 }
