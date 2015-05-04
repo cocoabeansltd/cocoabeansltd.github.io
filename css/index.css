@@ -10,31 +10,30 @@
 	height: auto;
 }
 
-.content_container {
+.content-container {
 	text-align: center;
 	padding: 20px 20px;
 }
 
-.content_container p {
+.content-container p {
 	font-weight: normal;
 	max-width: 720px;
 	color: #666666;
-	margin: 0px auto;
 }
 
-.content_container h1 {
+.content-container h1 {
 	text-transform: uppercase;
 	font-size: 30px;
 	color: #4A4A4A;
 }
 
-.content_container h2 {
+.content-container h2 {
 	color: #979797;
 	font-size: 20px;
 	margin: 10px 20px;
 }
 
-.section-header {
+.section-header, .section-content {
 	margin: 20px;
 	text-align: center;
 }
@@ -172,7 +171,6 @@
 
 @media only screen and (max-width: 800px)  {
 	.keypoints div {
-/* 		text-align: left; */
 		display: block;
 		width: auto;
 	}
@@ -183,13 +181,6 @@
 		vertical-align: middle;
 	}
 	
-/*
-	.keypoints div img {
-		height: 40px;
-		width: auto;
-	}
-	
-*/
 	.app {
 		display: inline;
 	}

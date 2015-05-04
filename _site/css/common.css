@@ -113,6 +113,7 @@ h5 {
 p {
 	margin-top: 0px;
 	margin-bottom:30px;
+	display: inline-block;
 }
 
 p:last-child {
@@ -247,7 +248,7 @@ footer .social_links_list li {
 	margin-top: 80px;
 }
 
-.content_container {
+.content-container {
 	position: relative;
 	overflow: hidden;
 	padding: 30px;
