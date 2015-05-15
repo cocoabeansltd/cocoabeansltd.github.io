@@ -111,9 +111,7 @@ h5 {
 }
 
 p {
-	margin-top: 0px;
-	margin-bottom:30px;
-	display: inline-block;
+    margin: 0px auto 30px auto;
 }
 
 p:last-child {

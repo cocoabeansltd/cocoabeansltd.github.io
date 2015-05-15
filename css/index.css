@@ -85,7 +85,9 @@
 .products-column {
 	max-width: 400px;
 	margin: 0px auto;
+	margin-top: 30px;
 	padding: 0px 10px;
+	vertical-align: top;
 	display: inline-block;
 }
 
@@ -109,6 +111,22 @@
 	width: 100%;
 }
 
+.products-column-header {
+    min-height: 24px;
+    display: table;
+    padding: 10px;
+}
+
+.products-column-header * {
+    margin: auto 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content-container .products-column-header h3 {
+    padding: 0px;
+}
+
 .app {
 	-webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -125,20 +143,21 @@
 .app-icon, .app-info {
     display: block;
     margin: 0px auto;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .app-icon {
-	float: left;
+	margin-right: 10px;
 }
 
 .app-info {
 	text-align: left;
 	max-width: 74%;
-	float: right;
 }
 
 .app-description {
-	margin: 10px 0px;
+	margin: 4px 0px;
 }
 
 .content-container .app-name {
@@ -199,10 +218,6 @@
 		display: inline-block;
 		vertical-align: middle;
 	}
-	
-	.app {
-		display: inline-block;
-	}
 }
 
 @media only screen and (max-width: 500px)  {
@@ -211,15 +226,13 @@
         width: 100%;
         float: none;
     }
-    
-    .app-icon, .app-info {
-        float: none;
-        max-width: 100%;
-        text-align: center;
-    }
-    
-    .content-container .app-name {
-        margin-top: 10px;
-    }
+
+/*
+	.app-icon, .app-info {
+    	float: none;
+    	display: inline-block;
+    	vertical-align: middle;
+	}
+*/
 }
     
