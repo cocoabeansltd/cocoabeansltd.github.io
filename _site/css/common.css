@@ -306,19 +306,21 @@ input, textarea, select, button {
 }
 
 .button {
+    padding: 14px;
 	margin: 10px auto;
-	padding: 14px;
 	background: #E96944;
 	border-radius: 5px;
 	border: none;
+	
+	text-transform: uppercase;
 	line-height: 15px;
 	font-weight: bold;
 	font-size: 14px;
+	cursor: pointer;
 	color: #FFFFFF;
 	display: block;
 	width: 100%;
 	
-	cursor: pointer;
 	-webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
@@ -334,15 +336,28 @@ input, textarea, select, button {
 /*
 /*****************************************************************************/
 
-.full_width_image {
-	margin: 0px auto;
+.full-width-image {
+    margin: 0px auto;
 	display: block;
 	width: auto;
 	height: auto;
 	max-width: 100%;
-	max-height: 450px;
+	max-height: 250px;
+}
+
+.main-title {
+    padding: 10px;
+    color: #E96944;
+    display: inline-block;
+    text-transform: uppercase;
 }
 
 .clear {
 	clear: both;
+}
+
+@media only screen and (max-width: 500px)  {
+    .button {
+        font-size: 18px;
+    }
 }
