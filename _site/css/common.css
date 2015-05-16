@@ -334,6 +334,42 @@ input, textarea, select, button {
 /*
 /*****************************************************************************/
 
+.profile {
+    margin: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.content-container .profile h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content-container .profile h4 {
+    color: #7A7A7A;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.content-container .profile p {
+    max-width: 400px;
+    color: #979797;
+    margin: 0px;
+}
+
+.profile-image {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.profile-details {
+    float: right;
+    margin-left: 20px;
+}
+
 .full-width-image {
     margin: 0px auto;
 	display: block;
@@ -354,8 +390,20 @@ input, textarea, select, button {
 	clear: both;
 }
 
-@media only screen and (max-width: 500px)  {
+@media only screen and (max-width: 700px)  {
     .button {
         font-size: 18px;
+    }
+    
+    .profile-image, .profile-details {
+        float: none;
+        display: block;
+        max-width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .profile-image {
+        margin-top: 0px;
     }
 }
