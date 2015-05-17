@@ -340,6 +340,14 @@ input, textarea, select, button {
     display: inline-block;
 }
 
+.profile .social-buttons {
+    display: none;
+}
+
+.profile:hover .social-buttons {
+    display: block;
+}
+
 .content-container .profile h3 {
     padding: 0px;
     margin: 0px;
@@ -405,5 +413,9 @@ input, textarea, select, button {
     
     .profile-image {
         margin-top: 0px;
+    }
+    
+    .profile .social-buttons {
+        display: block;
     }
 }
