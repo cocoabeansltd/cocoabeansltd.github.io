@@ -341,11 +341,31 @@ input, textarea, select, button {
 }
 
 .profile .social-buttons {
-    display: none;
+    z-index: 2;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 100px;
+    
+    opacity: 0;
+    color: white;
+    display: table;
+    text-align: center;
+    background-color: rgba(232, 103, 68, 0.75);
+    
+    -o-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
 }
 
 .profile:hover .social-buttons {
-    display: block;
+    opacity: 1;
+    color: white;
+}
+
+.profile .social-buttons .social_links_list {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .content-container .profile h3 {
@@ -415,7 +435,17 @@ input, textarea, select, button {
         margin-top: 0px;
     }
     
-    .profile .social-buttons {
+    .profile .social-buttons, .profile:hover .social-buttons {
+        background-color: inherit;
+        position: relative;
+        display: block;
+        color: #E96944;
+        height: auto;
+        width: auto;
+        opacity: 1;
+    }
+    
+    .profile .social-buttons .social_links_list {
         display: block;
     }
 }
