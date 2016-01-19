@@ -273,6 +273,8 @@ input, textarea, select, button {
 	background: #FFFFFF;
 	border: 1px solid #D8D8D8;
 	border-radius: 5px;
+	
+	font-family: 'Lato';
 	font-weight: 300;
 	font-size: 18px;
 	color: #666666;

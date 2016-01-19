@@ -1,8 +1,8 @@
 baseurl: /
 permalink: /blog/:year/:month/:day/:title
-url: http://cocoabeans.me
-name: Cocoa Beans
-description: "Cocoa Beans Ltd Official Website"
+url: "http://cocoabeans.io"
+name: "Cocoa Beans Software"
+description: "Cocoa Beans Software Ltd's official Website"
 timezone: Europe/London
 highlighter: pygments
 markdown: redcarpet
