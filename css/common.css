@@ -25,7 +25,7 @@ body {
 	text-align: center;
 	font-size: 18px;
 	color: #404040;
-	
+
 	/* Fix for code wrapping */
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
@@ -262,18 +262,18 @@ input, textarea, select, button {
 	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
     box-sizing: border-box;
-    
+
     -webkit-appearance: none;
-    
+
     margin: 10px 0px;
 	padding: 10px;
 	display: block;
 	width: 100%;
-	
+
 	background: #FFFFFF;
 	border: 1px solid #D8D8D8;
 	border-radius: 5px;
-	
+
 	font-family: 'Lato';
 	font-weight: 300;
 	font-size: 18px;
@@ -294,14 +294,14 @@ input, textarea, select, button {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #BBBBBB; 
+   color: #BBBBBB;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: #BBBBBB;
 }
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
    color: #BBBBBB;
 }
 
@@ -311,7 +311,7 @@ input, textarea, select, button {
 	background: #E96944;
 	border-radius: 5px;
 	border: none;
-	
+
 	text-transform: uppercase;
 	line-height: 15px;
 	font-weight: bold;
@@ -320,7 +320,7 @@ input, textarea, select, button {
 	color: #FFFFFF;
 	display: block;
 	width: 100%;
-	
+
 	-webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
@@ -337,9 +337,10 @@ input, textarea, select, button {
 /*****************************************************************************/
 
 .profile {
-    margin: 20px;
+    margin-top: 20px;
     text-align: left;
     display: inline-block;
+    padding-left: 30px; # just for visual appeal
 }
 
 .profile .social-buttons {
@@ -348,13 +349,13 @@ input, textarea, select, button {
     height: 150px;
     position: absolute;
     border-radius: 100px;
-    
+
     opacity: 0;
     color: white;
     display: table;
     text-align: center;
     background-color: rgba(232, 103, 68, 0.75);
-    
+
     -o-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -424,7 +425,11 @@ input, textarea, select, button {
     .button {
         font-size: 16px;
     }
-    
+
+    .profile {
+        padding: 0px;
+    }
+
     .profile-image, .profile-details {
         float: none;
         display: block;
@@ -432,11 +437,11 @@ input, textarea, select, button {
         margin: 20px auto;
         text-align: center;
     }
-    
+
     .profile-image {
         margin-top: 0px;
     }
-    
+
     .profile .social-buttons, .profile:hover .social-buttons {
         background-color: inherit;
         position: relative;
@@ -446,7 +451,7 @@ input, textarea, select, button {
         width: auto;
         opacity: 1;
     }
-    
+
     .profile .social-buttons .social_links_list {
         display: block;
     }
