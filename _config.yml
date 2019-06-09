@@ -4,7 +4,7 @@ url: "http://cocoabeans.io"
 name: "Cocoa Beans Software"
 description: "Cocoa Beans Software Ltd's official Website"
 timezone: Europe/London
-highlighter: pygments
+highlighter: rouge
 markdown: redcarpet
 redcarpet:
   extensions: ["strikethrough"]
