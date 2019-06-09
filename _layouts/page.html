@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    {% include head.html %}
-    <body>
-    	<header>
-    		{% include navigation_bar.html %}
-    	</header>
-		<section class="page_container" id='top'>
-			{{ content }}
-		</section>
-		<footer>
-			<div class="footer-container">
-				Brewed with love in London
-    			{% include footer.html %}
-			</div>
-		</footer>
-    </body>
+  {% include head.html %}
+  <body>
+    <header>
+      {% include navigation_bar.html %}
+    </header>
+    <section class="page_container" id="top">
+      {{ content }}
+    </section>
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
 </html>

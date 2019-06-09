@@ -8,6 +8,12 @@
 /*
 /*****************************************************************************/
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html, body, .page_container {
 	background-color: #FEFEFE;
 	-webkit-hyphens: none;
@@ -19,7 +25,7 @@ html, body, .page_container {
 }
 
 body {
-	-webkit-font-smoothing:antialiased;
+	-webkit-font-smoothing: antialiased;
 	font-family: 'Lato';
 	font-weight: normal;
 	text-align: center;
@@ -28,10 +34,7 @@ body {
 
 	/* Fix for code wrapping */
 	word-wrap: break-word;
-	-webkit-hyphens: auto;
-       -moz-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto;
+	hyphens: auto;
 }
 
 strong {
@@ -41,9 +44,7 @@ strong {
 }
 
 a {
-	-webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
 	text-decoration: none;
 	color: #FF9C01;
 }
@@ -160,7 +161,6 @@ header {
 	color: white;
 	position: fixed;
 	background-color: #605448;
-	opacity: 0.98;
 }
 
 header div {
@@ -260,12 +260,12 @@ footer .social_links_list li {
 
 input, textarea, select, button {
 	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
-    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
-    box-sizing: border-box;
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
 
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 
-    margin: 10px 0px;
+  margin: 10px 0px;
 	padding: 10px;
 	display: block;
 	width: 100%;
@@ -306,7 +306,7 @@ input, textarea, select, button {
 }
 
 .button {
-    padding: 14px;
+  padding: 14px;
 	margin: 10px auto;
 	background: #E96944;
 	border-radius: 5px;
@@ -321,13 +321,12 @@ input, textarea, select, button {
 	display: block;
 	width: 100%;
 
-	-webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
 }
 
 .button:hover {
-	background: #F8C72E;
+  background: #F8C72E;
+  color: #404040;
 }
 
 /*****************************************************************************/
@@ -336,11 +335,15 @@ input, textarea, select, button {
 /*
 /*****************************************************************************/
 
+.floating-image {
+  position: absolute;
+}
+
 .profile {
     margin-top: 20px;
     text-align: left;
     display: inline-block;
-    padding-left: 30px; # just for visual appeal
+    padding-left: 30px;
 }
 
 .profile .social-buttons {
@@ -356,9 +359,7 @@ input, textarea, select, button {
     text-align: center;
     background-color: rgba(232, 103, 68, 0.75);
 
-    -o-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .profile:hover .social-buttons {
