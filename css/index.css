@@ -5,47 +5,67 @@
 /*****************************************************************************/
 
 #main {
-	background-color: white;
-	padding: 0px;
-	height: auto;
+  padding: 0px;
+  height: 565px;
+  overflow: visible;
+  clip-path: url("/images/cocoabeans/home_main_section_mask.svg");
 }
 
-.content-container {
-	text-align: center;
-	padding: 20px;
+#main h1, #main h2 {
+  max-width: 520px;
+  text-align: left;
+}
+
+#main .button {
+  max-width: 580px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 32px;
+}
+
+#phone {
+  height: 594px;
 }
 
 .content-container p {
-	font-weight: normal;
-	max-width: 720px;
-	color: #666666;
+  font-weight: normal;
+  max-width: 720px;
+  color: #666666;
 }
 
 .content-container h1 {
-	text-transform: uppercase;
-	font-size: 30px;
-	color: #4A4A4A;
+  font-size: 48px;
+  color: #4A4A4A;
+  margin: 10px 0px;
 }
 
 .content-container h2 {
-	color: #979797;
-	font-size: 20px;
-	margin: 10px 20px;
+  color: #979797;
+  font-size: 24px;
+  margin: 10px 0px;
 }
 
 .content-container .main-title {
-    color: #E96944;
-    margin-top: 16px;
+  color: #E96944;
+  margin-top: 16px;
+}
+
+.navigation-blended-container {
+  background-color: #605448;
+}
+
+.navigation-blended-container h1, .navigation-blended-container h2 {
+  color: white !important;
 }
 
 .section-header {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 .section-header, .section-content {
-	padding: 0px 20px;
-	margin: 20px auto;
-	text-align: center;
+  padding: 0px 20px;
+  margin: 0px auto 40px auto;
+  text-align: center;
 }
 
 /*****************************************************************************/
@@ -55,130 +75,122 @@
 /*****************************************************************************/
 
 .keypoints {
-	margin: 10px auto;
-	padding: 0px 20px;
-	display: inline-block;
+  margin: 10px auto;
+  padding: 0px 20px;
+  display: inline-block;
 }
 
 .keypoints div {
-	margin: 20px 50px 0px 50px;
-	display: inline-block;
-	width: 120px;
+  margin: 20px 50px 0px 50px;
+  display: inline-block;
+  width: 120px;
 }
 
 .keypoints div * {
-	display: block;
-	text-align: center;
-	font-family: 'Lato';
-	font-weight: 900;
-	margin: 0px auto 14px auto;
-}
-
-#services {
-	color: white;
-	background-color: #E96944;
-}
-
-#services h1, #services h2 {
-	color: white;
-}
-
-#products {
-	background-color: white;
-}
-
-.products-column {
-	max-width: 300px;
-	margin: 30px auto;
-	padding: 0px 10px;
-	vertical-align: top;
-	display: inline-block;
-}
-
-.products-column h2 {
-	font-weight: bold;
-	color: #666666;
-}
-
-.products-column h3 {
-	color: #E96944;
-	font-size: 16px;
-	margin-bottom: 0px;
-	padding: 10px;
-	text-align: left;
-}
-
-.products-column hr {
-	border-color: #E96944;
-	border-style: solid;
-	color: #E96944;
-	width: 100%;
-}
-
-.products-column-header {
-    min-height: 24px;
-    display: table;
-    padding: 10px;
-}
-
-.products-column-header * {
-    margin: auto 10px;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.content-container .products-column-header h3 {
-    padding: 0px;
-}
-
-.app {
-	-webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    border-radius: 10px;
-	text-align: left;
-	padding: 20px;
-}
-
-.app:hover {
-	background-color: rgba(236, 236, 236, 0.9);
-}
-
-.app-icon, .app-info {
-    display: block;
-    margin: 0px auto;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.app-icon {
-	margin-right: 10px;
-}
-
-.app-info {
-	text-align: left;
-	max-width: 74%;
-}
-
-.app-description {
-	margin: 4px 0px;
-}
-
-.content-container .app-name {
-    margin: 0px;
-}
-
-.app-description {
-	color: #666666;
-	font-weight: 300;
+  display: block;
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 900;
+  margin: 0px auto 14px auto;
 }
 
 #about {
-	background-color: #F9F9F9;
+  background-color: #F9F9F9;
+}
+
+#products {
+  background-color: white;
+}
+
+.products-column {
+  max-width: 300px;
+  margin: 30px auto;
+  padding: 0px 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.products-column h2 {
+  font-weight: bold;
+  color: #666666;
+}
+
+.products-column h3 {
+  color: #E96944;
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding: 10px;
+  text-align: left;
+}
+
+.products-column hr {
+  border-color: #E96944;
+  border-style: solid;
+  color: #E96944;
+  width: 100%;
+}
+
+.products-column-header {
+  min-height: 24px;
+  display: table;
+  padding: 10px;
+}
+
+.products-column-header * {
+  margin: auto 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content-container .products-column-header h3 {
+  padding: 0px;
+}
+
+.app {
+  transition: all 0.25s ease-in-out;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+}
+
+.app:hover {
+  background-color: rgba(236, 236, 236, 0.9);
+}
+
+.app-icon, .app-info {
+  display: block;
+  margin: 0px auto;
+  display: inline-block;
+}
+
+.app-icon {
+  margin-right: 10px;
+}
+
+.app-info {
+  text-align: left;
+  max-width: 74%;
+}
+
+.app-description {
+  margin: 4px 0px;
+}
+
+.content-container .app-name {
+  margin: 0px;
+}
+
+.app-description {
+  color: #666666;
+  font-weight: 300;
+}
+
+#about {
+  background-color: #F9F9F9;
 }
 
 #contacts {
-	background-color: white;
+  background-color: white;
 }
 
 /*****************************************************************************/
@@ -188,55 +200,46 @@
 /*****************************************************************************/
 
 #contacts-form {
-	width: 100%;
+  width: 100%;
 }
 
 #contacts-form-message {
-	height: 150px;
-	vertical-align: top;
+  height: 150px;
+  vertical-align: top;
 }
 
 #contacts-form-email, #contacts-form-name {
-    display: inline-block;
-    width: 49%;
+  display: inline-block;
+  width: 49%;
 }
 
 #contacts-form-email {
-	float: left;
+  float: left;
 }
 
 #contacts-form-name {
-	float: right;
+  float: right;
 }
 
 @media only screen and (max-width: 800px)  {
-	.keypoints div {
-    	text-align: left;
-		display: block;
-		margin: 20px;
-		width: auto;
-	}
-	
-	.keypoints div * {
-		margin: 0px 20px;
-		display: inline-block;
-		vertical-align: middle;
-	}
+  .keypoints div {
+    text-align: left;
+    display: block;
+    margin: 20px;
+    width: auto;
+  }
+  
+  .keypoints div * {
+    margin: 0px 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 
 @media only screen and (max-width: 500px)  {
-    #contacts-form-email, #contacts-form-name {
-        display: block;
-        width: 100%;
-        float: none;
-    }
-
-/*
-	.app-icon, .app-info {
-    	float: none;
-    	display: inline-block;
-    	vertical-align: middle;
-	}
-*/
+  #contacts-form-email, #contacts-form-name {
+    display: block;
+    width: 100%;
+    float: none;
+  }
 }
-    
