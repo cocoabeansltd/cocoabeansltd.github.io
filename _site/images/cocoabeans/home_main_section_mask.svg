@@ -1,0 +1,18 @@
+
+<svg width="1440px" height="455px" viewBox="0 0 1440 455" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M1439.01442,503 C1439.67147,548.553544 1440,571.22021 1440,571 C1358.60351,535.191209 1196.46336,434.091386 720,582 C493.947645,651.568703 135.05984,708.264098 0,571 L0,503 L0,0 L1440,0 L1440,503 L1439.01442,503 Z" id="path-1"></path>
+    </defs>
+    <g id="2019---Revamp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop">
+            <g id="Header">
+                <g id="hero">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#605448" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
